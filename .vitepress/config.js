@@ -3,15 +3,59 @@ const pkg = require('../package.json')
 
 const Docs = [
   {
-    text: 'Getting Started',
-    link: '/docs/'
+    text: '시작',
+    link: '/doc/'
+  },
+  {
+    text: '설치',
+    link: '/doc/install'
+  },
+  {
+    text: '토큰 발급',
+    link: '/doc/token'
+  }
+]
+const Melons = [
+  {
+    text: '플레이리스트 옮기기',
+    link: '/melon/playlist'
+  },
+  {
+    text: '좋아요 리스트 옮기기',
+    link: '/melon/liked'
   }
 ]
 
-const slidebars = [
+const Genies = [
   {
-    text: 'Docs',
-    children: Docs
+    text: 'URL 아이디 확인',
+    link: '/genie/'
+  },
+  {
+    text: '플레이리스트 옮기기',
+    link: '/genie/playlist'
+  },
+  {
+    text: '좋아요 리스트 옮기기',
+    link: '/genie/liked'
+  }
+]
+
+const sidebar = [
+  {
+    text: 'To Spotify',
+    children: Docs,
+    items: Docs
+  },
+  {
+    text: 'Melon',
+    children: Melons,
+    items: Melons
+  },
+  {
+    text: 'Genie',
+    children: Genies,
+    items: Genies
   }
 ]
 
@@ -22,7 +66,7 @@ module.exports = {
   title: pkg.displayName,
   description: pkg.description,
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/logo.svg' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
     ['meta', { name: 'author', content: 'Seonglae Cho' }],
     ['meta', { property: 'og:title', content: 'Vitepress' }],
     ['meta', { property: 'og:image', content: `${pkg.homepage}/og-image.png` }],
@@ -56,15 +100,7 @@ module.exports = {
     docsBranch: 'release',
     editLinks: true,
     editLinkText: 'Suggest changes to this page',
-    nav: [
-      {
-        text: 'Doc',
-        items: Docs
-      }
-    ],
-    sidebar: {
-      '/docs/': slidebars,
-      '/': slidebars
-    }
+    nav: sidebar,
+    sidebar
   }
 }
