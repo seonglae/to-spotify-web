@@ -1,17 +1,53 @@
 // @ts-check
 const pkg = require('../package.json')
 
-const Docs = [
+const Spotifies = [
   {
-    text: 'Getting Started',
-    link: '/docs/'
+    text: '토큰 발급',
+    link: '/spotify/token'
+  }
+]
+const Melons = [
+  {
+    text: '플레이리스트 옮기기',
+    link: '/melon/playlist'
+  },
+  {
+    text: '좋아요 리스트 옮기기',
+    link: '/melon/liked'
   }
 ]
 
-const slidebars = [
+const Genies = [
   {
-    text: 'Docs',
-    children: Docs
+    text: 'URL 아이디 확인',
+    link: '/genie/'
+  },
+  {
+    text: '플레이리스트 옮기기',
+    link: '/genie/playlist'
+  },
+  {
+    text: '좋아요 리스트 옮기기',
+    link: '/genie/liked'
+  }
+]
+
+const sidebar = [
+  {
+    text: 'Spotify',
+    children: Spotifies,
+    items: Spotifies
+  },
+  {
+    text: 'Melon',
+    children: Melons,
+    items: Melons
+  },
+  {
+    text: 'Genie',
+    children: Genies,
+    items: Genies
   }
 ]
 
@@ -56,15 +92,7 @@ module.exports = {
     docsBranch: 'release',
     editLinks: true,
     editLinkText: 'Suggest changes to this page',
-    nav: [
-      {
-        text: 'Doc',
-        items: Docs
-      }
-    ],
-    sidebar: {
-      '/docs/': slidebars,
-      '/': slidebars
-    }
+    nav: sidebar,
+    sidebar
   }
 }

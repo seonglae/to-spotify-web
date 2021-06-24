@@ -1,0 +1,9 @@
+
+# 좋아요 리스트 옮기기
+bssq와 stoken을 넣어주면 자동으로 좋아요 리스트들을 이전합니다
+
+```bash
+g2s liked albums --bgsq blablanumber --stoken blablatoolong...
+g2s liked tracks --bgsq blablanumber --stoken blablatoolong...
+g2s liked artists --bgsq blablanumber --stoken blablatoolong...
+```
