@@ -1,10 +1,18 @@
 // @ts-check
 const pkg = require('../package.json')
 
-const Spotifies = [
+const Docs = [
+  {
+    text: '시작',
+    link: '/doc/'
+  },
+  {
+    text: '설치',
+    link: '/doc/install'
+  },
   {
     text: '토큰 발급',
-    link: '/spotify/token'
+    link: '/doc/token'
   }
 ]
 const Melons = [
@@ -35,9 +43,9 @@ const Genies = [
 
 const sidebar = [
   {
-    text: 'Spotify',
-    children: Spotifies,
-    items: Spotifies
+    text: 'To Spotify',
+    children: Docs,
+    items: Docs
   },
   {
     text: 'Melon',
@@ -58,7 +66,7 @@ module.exports = {
   title: pkg.displayName,
   description: pkg.description,
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/logo.svg' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
     ['meta', { name: 'author', content: 'Seonglae Cho' }],
     ['meta', { property: 'og:title', content: 'Vitepress' }],
     ['meta', { property: 'og:image', content: `${pkg.homepage}/og-image.png` }],

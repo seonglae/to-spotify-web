@@ -1,6 +1,6 @@
 
 # 좋아요 리스트 옮기기
-bssq와 stoken을 넣어주면 자동으로 좋아요 리스트들을 이전합니다
+플레이리스트와 마찬가지로 `bssq`와 **Spotify Token**을 넣어주면 좋아요 리스트들을 이전합니다
 
 ```bash
 g2s liked albums --bgsq blablanumber --stoken blablatoolong...
