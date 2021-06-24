@@ -1,7 +1,7 @@
 {
   "name": "to-spotify-docs",
   "displayName": "To Spotify",
-  "description": "Vitepress WindiCSS Template",
+  "description": "Migrate your Musics to Spotify",
   "homepage": "https://to-spotify.vercel.app",
   "version": "0.1.0",
   "engines": {
