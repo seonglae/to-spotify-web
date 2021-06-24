@@ -1,8 +1,8 @@
 {
-  "name": "windipress",
-  "displayName": "WindiPress",
+  "name": "to-spotify-docs",
+  "displayName": "To Spotify",
   "description": "Vitepress WindiCSS Template",
-  "homepage": "https://vitepress-template.vercel.app",
+  "homepage": "https://to-spotify.vercel.app",
   "version": "0.1.0",
   "engines": {
     "node": ">=14.0.0"

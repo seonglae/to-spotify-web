@@ -51,7 +51,7 @@ module.exports = {
     ]
   ],
   themeConfig: {
-    repo: 'seonglae/windipress',
+    repo: 'seonglae/to-spotify-docs',
     logo: '/logo.svg',
     docsBranch: 'release',
     editLinks: true,
