@@ -15,8 +15,8 @@ export default defineConfig({
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#424242',
-          deep: '#242424',
+          DEFAULT: '#4283f5',
+          deep: '#62bbff',
         },
       },
       fontFamily: {
