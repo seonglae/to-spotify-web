@@ -7,12 +7,12 @@ const Docs = [
     link: '/doc/'
   },
   {
-    text: '설치',
-    link: '/doc/install'
-  },
-  {
     text: '토큰 발급',
     link: '/doc/token'
+  },
+  {
+    text: '설치',
+    link: '/doc/install'
   }
 ]
 const Melons = [
