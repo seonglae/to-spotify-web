@@ -40,6 +40,8 @@ m2s help
 <img src="../assets/screenshot/help.png" width="700"/>
 
 
+프로그램 실행도 앞으로 이 커맨드창에서 전부 진행합니다
+
 
 ### To Spotify하러 [이동!](./usage)
 
