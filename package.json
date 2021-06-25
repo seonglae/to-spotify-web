@@ -1,7 +1,7 @@
 {
   "name": "to-spotify-docs",
   "displayName": "To Spotify",
-  "description": "스포티파이로 이전하기",
+  "description": "지니, 멜론을 스포티파이로 이전하기",
   "homepage": "https://to-spotify.vercel.app",
   "version": "0.1.0",
   "engines": {
