@@ -26,7 +26,8 @@ scoop install nodejs
 ### 3. 아래 **명령어**를 **복붙 엔터**해줍니다 (**to-sptify 설치**)
 ```bash
 npm i -g to-spotify
-g2s --help
+g2s help
+m2s help
 ```
 설치완료 간단!
 
