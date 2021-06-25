@@ -1,5 +1,5 @@
-## 토큰 발급
-Spotify에 재생목록과 팔로우, 좋아요를 라이브러리에 추가하기 위한 인증용 토큰을 발급받아야 합니다
+## Spotify 토큰 발급
+재생목록과 팔로우, 좋아요를 Spotify 라이브러리에 추가하기 위한 인증용 토큰을 발급받아야 합니다
 
 ### 1. [여기](https://developer.spotify.com/console/get-search-item/) 들어가서
 
