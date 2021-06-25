@@ -1,15 +1,29 @@
-<h1 align="center">To Spotify</h1>
-<h3 align="center">
-Migrate your Musics to Spotify</h3>
-<div align="center"> 스포티파이로 플레이리스트나 좋아요한 아티스트, 앨범, 트랙 목록을 옮길 수 있습니다</div> 
+## 토큰 발급
+Spotify에 재생목록과 팔로우, 좋아요를 라이브러리에 추가하기 위한 인증용 토큰을 발급받아야 합니다
 
-<br/>
-<br/>
-
-<h2 align="center">주의사항</h2>
-<div align="center">검색되지 않은 아이템들이 리스트들이 아래처럼 보여질 텐데 해당 아이템들을 빠지지 않게 검색해서 추가해줍시다</div> 
+### 1. [여기](https://developer.spotify.com/console/get-search-item/) 들어가서
 
 
-<p align="center">
-<img src="../assets/screenshot/resolve.png" width="500"/>
-</p>
+### 2. Get Token 누르기
+![token](../assets/screenshot/getstoken.png)
+
+### 3. 권한 설정하고 토큰발급
+
+**필수권한**
+- `playlist-modify-public`
+- `user-follow-modify`
+- `user-library-modify`
+- `playlist-modify-private`
+
+
+![auth](../assets/screenshot/auth.png)
+
+
+### 4. 생성된 토큰 복사해두기
+
+**주의** - 토큰이 아주 기니까 일부만 복사하지 말고 끝까지 복사하기
+
+![stoken](../assets/screenshot/stoken.png)
+
+
+### 5. 이제 토큰 발급받았으니 [설치](install)하러!
