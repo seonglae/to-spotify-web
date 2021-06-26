@@ -14,16 +14,26 @@
 <br/>
 
 ### 3. 아래 커멘드들을 실행
-URL에서 확인한 `mkey`와 **Spotify Token**가 필요함
+URL에서 확인한 `mkey`와 [여기](../doc/)에서 발급받은 **Spotify Token**가 필요함
 순서대로 좋아요한 앨범, 음악, 팬맺은 아티스트들을 Spotify로 이전함
 
-- 멜론 공개 프로필인지 체크하기
+그리고 멜론 공개 프로필인지 체크하기
 
+- 좋아요한 노래들 이동
+```bash
+m2s liked tracks --mkey blablanumber --stoken blablatoolong...
+```
+
+- 좋아요한 앨범들 이동
 ```bash
 m2s liked albums --mkey blablanumber --stoken blablatoolong...
-m2s liked tracks --mkey blablanumber --stoken blablatoolong...
+```
+
+- 좋아요한 아티스트들 이동
+```bash
 m2s liked artists --mkey blablanumber --stoken blablatoolong...
 ```
+
 
 <br/>
 
