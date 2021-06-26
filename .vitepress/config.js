@@ -63,6 +63,7 @@ const sidebar = [
  * @type {import('vitepress').UserConfig}
  */
 module.exports = {
+  lang: 'ko-KR',
   title: pkg.displayName,
   description: pkg.description,
   head: [
