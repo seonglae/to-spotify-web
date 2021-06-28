@@ -14,7 +14,7 @@
 
 ### 2. 아래 **명령어**들을 **복붙 엔터**해줍니다 (node, npm 설치)
 3줄 한꺼번에 **복붙 엔터**해줍니다
-```bash
+```powershell
 Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 iwr -useb get.scoop.sh | iex
 scoop install nodejs
