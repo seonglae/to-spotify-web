@@ -44,18 +44,15 @@ const Genies = [
 const sidebar = [
   {
     text: 'To Spotify',
-    children: Docs,
-    items: Docs
+    children: Docs
   },
   {
     text: 'Melon',
-    children: Melons,
-    items: Melons
+    children: Melons
   },
   {
     text: 'Genie',
-    children: Genies,
-    items: Genies
+    children: Genies
   }
 ]
 
@@ -101,7 +98,6 @@ module.exports = {
     docsBranch: 'release',
     editLinks: true,
     editLinkText: 'Suggest changes to this page',
-    nav: sidebar,
     sidebar
   }
 }
